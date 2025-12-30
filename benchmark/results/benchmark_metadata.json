@@ -1,0 +1,26 @@
+{
+  "dataset_path": "/bigdisk/minhpvt/quick-test/na/ML/benchmark/data/spacenet/SpaceNet.FLARE.imam_alam",
+  "dataset_size": 11448,
+  "class_distribution": {
+    "asteroid": 283,
+    "black hole": 656,
+    "comet": 416,
+    "constellation": 1552,
+    "galaxy": 3984,
+    "nebula": 1192,
+    "planet": 1472,
+    "star": 3269
+  },
+  "model_paths": {
+    "astrobert": "/bigdisk/minhpvt/quick-test/na/ML/train/outputs/physclip_astrobert",
+    "physbert": "/bigdisk/minhpvt/quick-test/na/ML/train/outputs/physclip_physbert"
+  },
+  "batch_size": 1024,
+  "num_workers": 0,
+  "gpu_devices": [
+    0,
+    1
+  ],
+  "timestamp": "2025-12-30T10:18:43.094168",
+  "total_evaluation_time": 4728.494477033615
+}
